@@ -1,7 +1,7 @@
-# My-portifolio
+# My-portifolio 👨‍💻
 
-HELLOW WORLD!  <br>
-It's my own portfolio
+HELLO WORLD! 👋  <br>
+Eu sou o Bruno Justo e It's my portfolio
 
 Dev: Bruno Justo<br>
 IDE: Vscode<br>
