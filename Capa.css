@@ -1,0 +1,134 @@
+/*body style for my portifólio  */
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* main title possition */
+.Bem-vindo {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/* Main title stilized */
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Mynerve', cursive;
+}
+
+/* font */
+.font{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* texts colors */
+.color-secondary{
+    color: white;
+}
+
+.color-terciary{
+    color:  rgb(238,174,202);;
+}
+
+/* Margins */
+.margin-left{
+    margin-left: 15px;
+}
+
+.margin-left2{
+    margin-left: -650px;
+}
+
+.margin-left3{
+    margin-left: 5px;
+}
+
+/* Size of text */
+.tamanho{
+    font-size: 20px;
+}
+
+/* Size of the img */
+.tamanho2{
+    width: 600px;
+    height: 600px;
+    margin-top: -170px;
+}
+
+/* Position img */
+.float-right{
+    float: right;
+}
+
+.margin-top{
+    margin-top: 5px;
+}
+
+/* img borders */
+.border{
+    border-radius: 50%;
+    border-style: double;
+    background: linear-gradient(to bottom left, #ff0dc2, #EEAECA); 
+    border-width: 20px;
+}
+
+/* Acodion stile */
+details {
+    display: block; 
+    width: auto;
+    margin: 10px 0;
+    margin-left: 40px;
+    margin-right: 800px;
+}
+  
+details p { 
+    padding-left: 30px;
+    color: white;
+}
+  
+summary {
+    display: flex; 
+    background: rgb(238,174,202);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Mynerve', cursive;
+}
+  
+summary::-webkit-details-marker {
+    display: none;
+}
+  
+summary:before {
+    content: "+";
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 0;
+    width: 20px;
+    text-align: center;
+}
+  
+details[open] summary:before {
+    content: "-";
+}
+
+/* Put icons in final of the page */
+.display{
+    margin-top: 220px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.display2{
+    display: flex;
+}
