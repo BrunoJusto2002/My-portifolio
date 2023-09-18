@@ -149,7 +149,7 @@ details[open] summary:before {
 
     /* font size of the tex*/
     h1{
-        font-size: 40px;
+        font-size: 45px;
     }
 
     /* img size*/
@@ -196,7 +196,67 @@ details[open] summary:before {
 
 }
 
-@media only screen and (max-width: 480px){   
+@media only screen and (max-width: 480px){
+
+    body{
+        background-color: #ff0dc2;
+    }
+    
+    /* fixing the title */
+    .Bem-vindo{
+        width: 100vw;
+        height: 30vh;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+
+    /* font size of the tex*/
+    title{
+        font-size: 60px;
+    }
+
+    /* img size*/
+    .tamanho5{
+        width: 350px;;
+        height: 350px;
+    }
+
+    /* text size*/
+    .tamanho4{
+        width: 270px;
+        height: 370px;
+        font-size: 30px;
+    }
+
+    /* margin of the midieas link footer*/
+    .display{
+        margin-left: 3px;
+    }
+
+    /* margin of the img*/
+    .margin{
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    /* Take off the float of img*/
+    .float{
+        float: none;
+
+    }
+
+/* fixing the acordeon*/
+    summary {
+        width: 169px;
+        font-size: 20px;
+    }
+
+    /*summary informations*/
+    .font2{
+        font-size: 20px;
+        width: 210px;
+    }
 }
 
 /* tablet resposiveness ok*/ 
