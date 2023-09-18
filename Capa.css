@@ -136,15 +136,56 @@ details[open] summary:before {
 /*creating the responsiveness of my portfolio*/
 
 /* mobile resposiveness ok*/
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media only screen and (max-width: 320px){
     body{
         background-color: blue;
+        overflow-x: hidden;
+
     }
     .Bem-vindo{
         width: 100vw;
         height: 30vh;
         align-items: center;
-        margin-left: -10px;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .tamanho3{
+        width: 200px;
+        height: 200px;
+    }
+
+    .tamanho4{
+        width: 200px;
+        height: 20px;
+    }
+
+    .margin{
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .float{
+        float: none;
+
+    }
+
+    summary {
+        display: flex; 
+        background: rgb(238,174,202);
+        color: white;
+        border-radius: 8px;
+        padding: 5px;
+        cursor: pointer;
+        font-weight: 700;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Mynerve', cursive;
+        width: 150px;
     }
 }
 
