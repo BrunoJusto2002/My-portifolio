@@ -160,8 +160,13 @@ details[open] summary:before {
     }
 
     .tamanho4{
-        width: 200px;
-        height: 20px;
+        width: 270px;
+        height: 370px;
+        font-size: 30px;
+    }
+
+    .display{
+        margin-left: 3px;
     }
 
     .margin{
@@ -175,16 +180,6 @@ details[open] summary:before {
     }
 
     summary {
-        display: flex; 
-        background: rgb(238,174,202);
-        color: white;
-        border-radius: 8px;
-        padding: 5px;
-        cursor: pointer;
-        font-weight: 700;
-        justify-content: flex-start;
-        align-items: center;
-        font-family: 'Mynerve', cursive;
         width: 150px;
     }
 }
