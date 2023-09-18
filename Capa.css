@@ -136,12 +136,13 @@ details[open] summary:before {
 /*creating the responsiveness of my portfolio*/
 
 /* mobile resposiveness ok*/
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px)
     body{
         background-color: blue;
         overflow-x: hidden;
-
     }
+
+    /* fixing the title */
     .Bem-vindo{
         width: 100vw;
         height: 30vh;
@@ -150,39 +151,46 @@ details[open] summary:before {
         margin-top: -40px;
     }
 
+    /* font size of the tex*/
     h1{
         font-size: 40px;
     }
 
+    /* img size*/
     .tamanho3{
         width: 200px;
         height: 200px;
     }
 
+    /* text size*/
     .tamanho4{
         width: 270px;
         height: 370px;
         font-size: 30px;
     }
 
+    /* margin of the midieas link footer*/
     .display{
         margin-left: 3px;
     }
 
+    /* margin of the img*/
     .margin{
         margin-top: -20px;
         margin-left: 20px;
     }
 
+    /* Take off the float of img*/
     .float{
         float: none;
 
     }
 
+/* fixing the acordeon size*/
     summary {
         width: 150px;
     }
-}
+
 
 /* tablet resposiveness ok*/ 
 @media screen and (min-width: 481px) and (orientation: landscape) {
