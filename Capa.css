@@ -223,9 +223,9 @@ details[open] summary:before {
     }
 
     /* text size*/
-    .tamanho4{
-        width: 270px;
-        height: 370px;
+    .tamanho_5{
+        width: 444px;
+        height: 200px;
         font-size: 30px;
     }
 
@@ -235,9 +235,9 @@ details[open] summary:before {
     }
 
     /* margin of the img*/
-    .margin{
+    .margin_2{
         margin-top: -20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     /* Take off the float of img*/
@@ -247,15 +247,15 @@ details[open] summary:before {
     }
 
 /* fixing the acordeon*/
-    summary {
-        width: 169px;
+    .Su_2{
+        width: 200px;
         font-size: 20px;
     }
 
     /*summary informations*/
-    .font2{
-        font-size: 20px;
-        width: 210px;
+    .font_2{
+        font-size: 25px;
+        width: 300px;
     }
 }
 
