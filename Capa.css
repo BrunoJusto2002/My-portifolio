@@ -132,3 +132,30 @@ details[open] summary:before {
 .display2{
     display: flex;
 }
+
+/*creating the responsiveness of my portfolio*/
+
+/* mobile resposiveness ok*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        background-color: blue;
+    }
+    .Bem-vindo{
+        width: 100vw;
+        height: 30vh;
+        align-items: center;
+        margin-left: -10px;
+    }
+}
+
+/* tablet resposiveness ok*/ 
+@media screen and (min-width: 481px) and (orientation: landscape) {
+}
+
+/* laptops resposiveness ok*/
+@media (min-width: 769px) and (max-width: 1024px){
+}
+
+/* desktops resposiveness ok*/
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+}
