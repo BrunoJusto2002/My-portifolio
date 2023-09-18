@@ -136,8 +136,8 @@ details[open] summary:before {
 /*creating the responsiveness of my portfolio*/
 
 /* mobile resposiveness ok*/
-@media only screen and (max-width: 320px)
-    body{
+@media only screen and (max-width: 320px){
+        body{
         background-color: blue;
         overflow-x: hidden;
     }
@@ -191,7 +191,7 @@ details[open] summary:before {
         width: 150px;
     }
 
-
+}
 /* tablet resposiveness ok*/ 
 @media screen and (min-width: 481px) and (orientation: landscape) {
 }
