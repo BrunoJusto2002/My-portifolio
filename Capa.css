@@ -137,8 +137,8 @@ details[open] summary:before {
 
 /* mobile resposiveness*/
 @media only screen and (max-width: 320px){
-
-    /* fixing the title */
+    
+    * fixing the title */
     .Bem-vindo{
         width: 100vw;
         height: 30vh;
@@ -198,13 +198,12 @@ details[open] summary:before {
         font-size: 20px;
         width: 210px;
     }
-
 }
 
 @media only screen and (max-width: 480px){
-    
-    /* fixing the title */
-    .Bem-vindo_2{
+
+      /* fixing the title */
+      .Bem-vindo_2{
         width: 100vw;
         height: 30vh;
         align-items: center;
