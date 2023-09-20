@@ -149,13 +149,13 @@ details[open] summary:before {
 
     /* font size of the tex*/
     h1{
-        font-size: 43px;
+        font-size: 40px;
         margin-left: 44px;
         width: 900px;
-        height: 100px;
-        margin-bottom: 50px;
-        margin-top: 60px; 
-        margin-left: 15px;
+        height: 200px;
+        margin-bottom: -50px;
+        margin-top: 20px; 
+        margin-left: 70px;
     }
 
     /* img size*/
