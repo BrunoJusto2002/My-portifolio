@@ -138,7 +138,7 @@ details[open] summary:before {
 /* mobile resposiveness*/
 @media only screen and (max-width: 320px){
     
-    * fixing the title */
+    /* fixing the title */
     .Bem-vindo{
         width: 100vw;
         height: 30vh;
@@ -187,7 +187,7 @@ details[open] summary:before {
 
     }
 
-/* fixing the acordeon*/
+    /* fixing the acordeon*/
     summary {
         width: 169px;
         font-size: 20px;
